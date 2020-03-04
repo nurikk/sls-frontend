@@ -1,6 +1,6 @@
 import * as d3Selection from 'd3-selection';
 import { h, Component, ComponentChild, createRef, FunctionalComponent } from 'preact';
-import { NodeI, Device, Dictionary } from './types';
+import { NodeI, Device } from './types';
 import * as style from './map.css';
 import cx from 'classnames';
 import { HoverableNode } from '.';
