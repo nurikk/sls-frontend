@@ -10,8 +10,8 @@ import Button from "../button";
 import { enableJoin } from "../actions";
 
 // const ws = new WebSocket("ws://localhost:8579/");
-// const ws = new WebSocket("ws://192.168.1.209:81/log");
-const ws = new WebSocket(`ws://${document.location.hostname}:81/log`);
+const ws = new WebSocket("ws://192.168.1.209:81/log");
+// const ws = new WebSocket(`ws://${document.location.hostname}:81/log`);
 
 
 
@@ -96,15 +96,17 @@ export default class Discovery extends Component<{}, DiscoveryState> {
 
     }
 
+
     componentDidMount(): void {
         this.connectWS();
         ws.send("hello");
+        this.enableJoin();
     }
     renderDevices(): ComponentChild {
         const { events } = this.state;
         return <div className="row no-gutters">{Object.entries(events).map(([nkwAaar, events]) => <DeviceCard nwkAddr={nkwAaar} events={events} />)}</div>
     }
-    onEnableJoinClick = (): void => {
+    enableJoin = (): void => {
         enableJoin(255, () => {
             console.log("Enabled");
         });
@@ -115,7 +117,7 @@ export default class Discovery extends Component<{}, DiscoveryState> {
             <h1>Nothing yet happened </h1>
 
             {joinDuration <= 0 ?
-                <Button<void> className="btn btn-success" onClick={this.onEnableJoinClick} item={undefined}>Enable join</Button> :
+                <Button<void> className="btn btn-success" onClick={this.enableJoin} item={undefined}>Enable join</Button> :
                 <div>Join enabled for {joinDuration} seconds</div>}
 
         </Fragment>);
