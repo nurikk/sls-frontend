@@ -19,15 +19,6 @@ export enum InterviewState {
     ModelRecieved = 4
 }
 
-export const InterviewStateLabels = new Map<InterviewState, string>([
-    [InterviewState.StateUnknown, 'Status unknown'],
-    [InterviewState.AnnouncementReceived, 'Announcement received'],
-    [InterviewState.DescriptionRecieved, 'Description recieved'],
-    [InterviewState.EndpointsRecieved, 'Endpoints recieved'],
-    [InterviewState.ClustersRecieved, 'Clusters recieved'],
-    [InterviewState.ModelRecieved, 'Model recieved']
-]);
-
 
 
 interface Interview {

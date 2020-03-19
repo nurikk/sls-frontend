@@ -31,7 +31,7 @@ const DeviceControlGroup: FunctionalComponent<DeviceControlGroupProps> = (props)
         <div className="btn-group" role="group">
             <Button<Device> className="btn btn-danger" onClick={onRemoveClick} item={device}><i className="fa fa-trash" /></Button>
             <Button<Device> className="btn btn-secondary" onClick={onRenameClick} item={device}><i className="fa fa-edit" /></Button>
-            {device.ieeeAddr ? <Button<Device> className="btn btn-success" onClick={onBindClick} item={device}>Bind</Button> : null}
+            <Button<Device> className="btn btn-success" onClick={onBindClick} item={device}>Bind</Button>
         </div>
     )
 };
