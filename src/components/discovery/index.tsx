@@ -10,7 +10,9 @@ import Button from "../button";
 import { enableJoin } from "../actions";
 
 // const ws = new WebSocket("ws://localhost:8579/");
-const ws = new WebSocket("ws://192.168.1.209:81/log");
+// const ws = new WebSocket("ws://192.168.1.209:81/log");
+const ws = new WebSocket(`ws://${document.location.hostname}:81/log`);
+
 
 
 interface DiscoveryState {
