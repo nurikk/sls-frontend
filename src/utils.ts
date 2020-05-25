@@ -113,7 +113,9 @@ export interface ApiResponse<T> {
 }
 export function callApi<T>(url: string, method: HttMethod, params: Dictionary<any>, payload: any, callback: CallbackHandler<T>, contentType: ContentType = "json"): Promise<void> {
     return new Promise<void>((resolve, reject) => {
-        fetch(`${url}?${encodeGetParams(params)}`, { method, body: payload })
+        const encodedParams = encodeGetParams(params);
+        console.log('encodedParams', encodedParams);
+        fetch(`${url}${ encodedParams.length ? `?${encodedParams}` : ''}`, { method, body: payload })
             .then((res) => {
                 if (res.status === 200) {
                     return res[contentType]();

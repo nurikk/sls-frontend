@@ -1,0 +1,25 @@
+.widget {
+    padding: 10px;
+}
+.header {
+
+}
+.header, .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+
+}
+.icon {
+
+}
+.icon img {
+    height: 24px;
+    width: 24px;
+}
+
+.actions {
+
+}

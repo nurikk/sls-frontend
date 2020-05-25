@@ -1,0 +1,2047 @@
+[{
+    "nwkAddr": "0x0518",
+    "ieeeAddr": "0x04CF8CDF3C771F6C",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 1,
+    "last_seen": 1587419687,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sen_ill.mgl01",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0106",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "3": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "illuminance": 1,
+        "linkquality": 78,
+        "trSeqNum": 6,
+        "voltage": 3.1
+    }
+}, {
+    "nwkAddr": "0x0842",
+    "ieeeAddr": "0x00158D00016C5396",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420678,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_motion.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0xF32B"],
+    "ep": {
+        "1": {
+            "devId": "0x0104",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "illuminance": 2,
+        "linkquality": 44,
+        "trSeqNum": 139,
+        "voltage": 3.02
+    }
+}, {
+    "nwkAddr": "0x1840",
+    "ieeeAddr": "0x00158D000201DB66",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419056,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_magnet.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x6EB5"],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 115,
+        "trSeqNum": 209,
+        "voltage": 3.01
+    }
+}, {
+    "nwkAddr": "0x1841",
+    "ieeeAddr": "0x00158D0001A210B4",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587417596,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_switch",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0104",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "click": "",
+        "linkquality": 97,
+        "trSeqNum": 104,
+        "voltage": 3.22
+    }
+}, {
+    "nwkAddr": "0x1B10",
+    "ieeeAddr": "0x000D6F001336867C",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 129,
+    "last_seen": 1587420739,
+    "ManufName": "GS",
+    "ModelId": "SRHMP-I1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0403",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "9": true,
+                "250": true
+            },
+            "Out": {
+                "3": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 31,
+        "trSeqNum": 118,
+        "voltage": 4.1,
+        "warning": ""
+    }
+}, {
+    "nwkAddr": "0x1E7F",
+    "ieeeAddr": "0x00158D0001D7703D",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420302,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_wleak.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 73,
+        "trSeqNum": 34,
+        "voltage": 3.24
+    }
+}, {
+    "nwkAddr": "0x2729",
+    "ieeeAddr": "0xEC1BBDFFFE302F1D",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1586916189,
+    "ManufName": "_TYST11_i5j6ifxj",
+    "ModelId": "5j6ifxj",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0000",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true
+            },
+            "Out": {
+                "3": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 73,
+        "linkquality": 131,
+        "occupancy": true,
+        "trSeqNum": 83
+    }
+}, {
+    "nwkAddr": "0x2855",
+    "ieeeAddr": "0x00158D00011D8CB1",
+    "friendly_name": "lamp1",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587339771,
+    "ManufName": "Trust International B.V.",
+    "ModelId": "ZLL-ExtendedColo",
+    "Rcf": false,
+    "supported": 1,
+    "Interview": {
+        "State": 3,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x1000",
+            "profId": "0xC05E",
+            "In": {
+                "0": true
+            },
+            "Out": {
+                "0": true
+            }
+        },
+        "2": {
+            "devId": "0x0210",
+            "profId": "0xC05E",
+            "In": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "brightness": 255,
+        "color_temp": "",
+        "linkquality": 21,
+        "state": "OFF",
+        "trSeqNum": 59,
+        "transition": ""
+    }
+}, {
+    "nwkAddr": "0x2A21",
+    "ieeeAddr": "0x00158D0001E0A343",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420264,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_86sw2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "18": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true,
+                "25": true,
+                "255": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        },
+        "3": {
+            "devId": "0x5F03",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "12": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "click": "",
+        "linkquality": 76,
+        "trSeqNum": 48,
+        "voltage": 3.05
+    }
+}, {
+    "nwkAddr": "0x2A29",
+    "ieeeAddr": "0x00158D0001D779CD",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419527,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_wleak.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 76,
+        "trSeqNum": 152,
+        "voltage": 3.19
+    }
+}, {
+    "nwkAddr": "0x31C6",
+    "ieeeAddr": "0x00158D000171E4C2",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420231,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.weather",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "2": true,
+                "3": true,
+                "5": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "humidity": 23.69,
+        "linkquality": 47,
+        "pressure": 100.3,
+        "temperature": 27.82,
+        "trSeqNum": 235,
+        "voltage": 3.01
+    }
+}, {
+    "nwkAddr": "0x3818",
+    "ieeeAddr": "0x00158D0003A358EF",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587421061,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.plug",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0051",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "10": true,
+                "16": true
+            },
+            "Out": {
+                "10": true,
+                "25": true
+            }
+        },
+        "2": {
+            "devId": "0x0009",
+            "profId": "0x0104",
+            "In": {
+                "12": true
+            },
+            "Out": {
+                "4": true,
+                "12": true
+            }
+        },
+        "3": {
+            "devId": "0x0053",
+            "profId": "0x0104",
+            "In": {
+                "12": true
+            },
+            "Out": {
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "brightness": "",
+        "consumption": 3.92,
+        "linkquality": 81,
+        "power": 0,
+        "state": "OFF",
+        "temperature": 29,
+        "trSeqNum": 36
+    }
+}, {
+    "nwkAddr": "0x3C63",
+    "ieeeAddr": "0x04CF8CDF3C777B47",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587421031,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.plug.mmeu01",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0051",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "9": true
+            },
+            "Out": {
+                "10": true,
+                "25": true
+            }
+        },
+        "242": {
+            "devId": "0x0061",
+            "profId": "0xA1E0",
+            "Out": {
+                "33": true
+            }
+        }
+    },
+    "st": {
+        "brightness": "",
+        "linkquality": 65,
+        "power": 0,
+        "state": "OFF",
+        "trSeqNum": 196
+    }
+}, {
+    "nwkAddr": "0x3EFA",
+    "ieeeAddr": "0x000D6F00106A67FD",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420981,
+    "ManufName": "",
+    "ModelId": "TERNCY-PP01",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x01F0",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "6": true,
+                "32": true,
+                "204": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 72,
+        "illuminance": 1,
+        "linkquality": 115,
+        "temperature": 22,
+        "trSeqNum": 0
+    }
+}, {
+    "nwkAddr": "0x4659",
+    "ieeeAddr": "0x00158D0000BEAF4B",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420817,
+    "ManufName": "Nexturn",
+    "ModelId": "Door_Sensor",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 76,
+        "trSeqNum": 126
+    }
+}, {
+    "nwkAddr": "0x5292",
+    "ieeeAddr": "0x04CF8CDF3C75B339",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420398,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.remote.b686opcn01",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x6EB5"],
+    "ep": {
+        "1": {
+            "devId": "0x0105",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "6": true,
+                "8": true
+            }
+        },
+        "2": {
+            "devId": "0x0103",
+            "profId": "0x0104",
+            "In": {
+                "3": true
+            },
+            "Out": {
+                "3": true,
+                "6": true
+            }
+        },
+        "3": {
+            "devId": "0x0103",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "6": true
+            }
+        },
+        "4": {
+            "devId": "0x0000",
+            "profId": "0x0000"
+        },
+        "5": {
+            "devId": "0x0000",
+            "profId": "0x0000"
+        },
+        "6": {
+            "devId": "0x0000",
+            "profId": "0x0000"
+        }
+    },
+    "st": {
+        "action": "",
+        "battery": 100,
+        "linkquality": 115,
+        "operation_mode": "event",
+        "trSeqNum": 18,
+        "voltage": 3.12
+    }
+}, {
+    "nwkAddr": "0x5376",
+    "ieeeAddr": "0x00158D000419C474",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587421078,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.relay.c2acn01",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0101",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "10": true,
+                "12": true,
+                "16": true
+            },
+            "Out": {
+                "10": true,
+                "25": true
+            }
+        },
+        "2": {
+            "devId": "0x0101",
+            "profId": "0x0104",
+            "In": {
+                "4": true,
+                "5": true,
+                "6": true,
+                "16": true
+            }
+        }
+    },
+    "st": {
+        "consumption": 0.01,
+        "linkquality": 70,
+        "power": 0.01,
+        "state_l1": "OFF",
+        "state_l2": "OFF",
+        "temperature": 42,
+        "trSeqNum": 61
+    }
+}, {
+    "nwkAddr": "0x5B7A",
+    "ieeeAddr": "0x00158D0000BEA975",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587421059,
+    "ManufName": "Nexturn",
+    "ModelId": "Door_Sensor",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 78,
+        "trSeqNum": 23
+    }
+}, {
+    "nwkAddr": "0x66C1",
+    "ieeeAddr": "0x00158D0002B12731",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420684,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.vibration.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x000A",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "25": true
+            },
+            "Out": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "25": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        }
+    },
+    "st": {
+        "action": "",
+        "angle": 8,
+        "angle_x": -1,
+        "angle_x_absolute": -1,
+        "angle_y": -1,
+        "angle_y_absolute": -1,
+        "angle_z": -1,
+        "battery": 100,
+        "linkquality": 31,
+        "trSeqNum": 171,
+        "voltage": 3.04
+    }
+}, {
+    "nwkAddr": "0x6EB5",
+    "ieeeAddr": "0x00158D0002C63DF2",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587279333,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.light.aqcn02",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0102",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "10": true,
+                "13": true,
+                "19": true
+            },
+            "Out": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "6": true,
+                "8": true,
+                "10": true,
+                "13": true,
+                "19": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "brightness": 255,
+        "color_temp": 153,
+        "linkquality": 131,
+        "state": "OFF",
+        "trSeqNum": 241,
+        "transition": ""
+    }
+}, {
+    "nwkAddr": "0x6EC7",
+    "ieeeAddr": "0x00158D00015B21EA",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419003,
+    "ManufName": "",
+    "ModelId": "lumi.sensor_motion",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x6EB5"],
+    "ep": {
+        "1": {
+            "devId": "0x0104",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 115,
+        "trSeqNum": 211,
+        "voltage": 3.02
+    }
+}, {
+    "nwkAddr": "0x700C",
+    "ieeeAddr": "0x005043C91F299246",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420786,
+    "ManufName": "Heiman",
+    "ModelId": "WATER_TPV14",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "9": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 57,
+        "tamper": true,
+        "trSeqNum": 0,
+        "water_leak": false
+    }
+}, {
+    "nwkAddr": "0x7405",
+    "ieeeAddr": "0x00158D0001C34789",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419682,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_wleak.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 78,
+        "trSeqNum": 153,
+        "voltage": 3.22
+    }
+}, {
+    "nwkAddr": "0x82CB",
+    "ieeeAddr": "0x00158D0001AB45FB",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420823,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_motion.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0107",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "illuminance": 3,
+        "linkquality": 34,
+        "occupancy": true,
+        "trSeqNum": 20,
+        "voltage": 3.03
+    }
+}, {
+    "nwkAddr": "0x84AF",
+    "ieeeAddr": "0x00158D00016C4034",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587418523,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_magnet.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 78,
+        "trSeqNum": 195,
+        "voltage": 3.05
+    }
+}, {
+    "nwkAddr": "0x9224",
+    "ieeeAddr": "0x00158D00034F8B5C",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587338121,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_ht",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "18": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true,
+                "25": true,
+                "255": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        },
+        "3": {
+            "devId": "0x5F03",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "12": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "battery": 57,
+        "humidity": 31.39,
+        "linkquality": 92,
+        "temperature": 23.06,
+        "trSeqNum": 44,
+        "voltage": 2.92
+    }
+}, {
+    "nwkAddr": "0x96B9",
+    "ieeeAddr": "0x00124B001ED159A0",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587421074,
+    "ManufName": "ptvo.info",
+    "ModelId": "ptvo.switch",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "5": true,
+                "6": true
+            },
+            "Out": {
+                "0": true,
+                "5": true,
+                "6": true
+            }
+        },
+        "2": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "6": true
+            },
+            "Out": {
+                "6": true
+            }
+        },
+        "3": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "6": true
+            },
+            "Out": {
+                "6": true
+            }
+        },
+        "4": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "6": true
+            },
+            "Out": {
+                "6": true
+            }
+        },
+        "5": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "6": true
+            },
+            "Out": {
+                "6": true
+            }
+        },
+        "6": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "l6": 29,
+        "l6_desc": "C",
+        "l6_temperature": 29,
+        "linkquality": 99,
+        "state_bottom_left": "OFF",
+        "state_bottom_right": "OFF",
+        "state_center": "OFF",
+        "state_top_left": "OFF",
+        "state_top_right": "OFF",
+        "trSeqNum": 20
+    }
+}, {
+    "nwkAddr": "0x9984",
+    "ieeeAddr": "0x00158D0001A2AAF4",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420476,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sens",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "18": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true,
+                "25": true,
+                "255": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        },
+        "3": {
+            "devId": "0x5F03",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "12": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "humidity": 28.69,
+        "linkquality": 68,
+        "temperature": 24.86,
+        "trSeqNum": 117,
+        "voltage": 3.23
+    }
+}, {
+    "nwkAddr": "0x9B6E",
+    "ieeeAddr": "0x00158D0000B3A204",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420874,
+    "ManufName": "Nexturn",
+    "ModelId": "Motion_Sensor",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            }
+        }
+    },
+    "st": {
+        "battery": 51,
+        "linkquality": 115,
+        "occupancy": false,
+        "trSeqNum": 0
+    }
+}, {
+    "nwkAddr": "0xADFA",
+    "ieeeAddr": "0x00158D00018256B6",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420876,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sens",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "18": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true,
+                "25": true,
+                "255": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        },
+        "3": {
+            "devId": "0x5F03",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "12": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "12": true
+            }
+        }
+    },
+    "st": {
+        "battery": 98,
+        "humidity": 26.15,
+        "linkquality": 39,
+        "temperature": 25.42,
+        "trSeqNum": 247,
+        "voltage": 2.99
+    }
+}, {
+    "nwkAddr": "0xB878",
+    "ieeeAddr": "0x00158D0002807618",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419357,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_wleak.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0xF32B"],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 39,
+        "trSeqNum": 202,
+        "voltage": 3.31
+    }
+}, {
+    "nwkAddr": "0xB9BD",
+    "ieeeAddr": "0x90FD9FFFFEF7E26D",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587384483,
+    "ManufName": "IKEA of Sweden",
+    "ModelId": "TRADFRI remote control",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0830",
+            "profId": "0xC05E",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "5": true,
+                "9": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "action": "",
+        "battery": 47,
+        "linkquality": 107,
+        "trSeqNum": 27
+    },
+    "SB": {
+        "action": "ikea_pult.lua"
+    }
+}, {
+    "nwkAddr": "0xB9E4",
+    "ieeeAddr": "0x00158D00022C71F0",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419879,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.weather",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "2": true,
+                "3": true,
+                "5": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "humidity": 22.66,
+        "linkquality": 73,
+        "pressure": 100.39,
+        "temperature": 27.79,
+        "trSeqNum": 248,
+        "voltage": 3.11
+    }
+}, {
+    "nwkAddr": "0xDAE5",
+    "ieeeAddr": "0x00158D000076B9E2",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420930,
+    "ManufName": "Nexturn",
+    "ModelId": "VOC_Sensor",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0301",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "2": true,
+                "3": true,
+                "5": true
+            }
+        }
+    },
+    "st": {
+        "battery": 19,
+        "eco2": 0,
+        "humidity": 30,
+        "linkquality": 70,
+        "temperature": 25.3,
+        "trSeqNum": 117,
+        "voc": 0
+    }
+}, {
+    "nwkAddr": "0xDC6F",
+    "ieeeAddr": "0x00158D0000B67DB1",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587420997,
+    "ManufName": "Nexturn",
+    "ModelId": "Leak_Sensor",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 76,
+        "trSeqNum": 67,
+        "water_leak": false
+    }
+}, {
+    "nwkAddr": "0xDEEC",
+    "ieeeAddr": "0x00158D0001FA6EC3",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587414793,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.weather",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "2": true,
+                "3": true,
+                "5": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "humidity": 22.84,
+        "linkquality": 34,
+        "pressure": 100.34,
+        "temperature": 28.07,
+        "trSeqNum": 34,
+        "voltage": 3.02
+    }
+}, {
+    "nwkAddr": "0xE1E7",
+    "ieeeAddr": "0x00158D0002B123D3",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419083,
+    "ManufName": "",
+    "ModelId": "lumi.vibration.aq1",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x000A",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "25": true
+            },
+            "Out": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "25": true
+            }
+        },
+        "2": {
+            "devId": "0x5F02",
+            "profId": "0x0104",
+            "In": {
+                "3": true,
+                "18": true
+            },
+            "Out": {
+                "3": true,
+                "4": true,
+                "5": true,
+                "18": true
+            }
+        }
+    },
+    "st": {
+        "action": "",
+        "angle": 6,
+        "angle_x": -1,
+        "angle_x_absolute": -1,
+        "angle_y": 90,
+        "angle_y_absolute": -1,
+        "angle_z": -1,
+        "battery": 100,
+        "linkquality": 70,
+        "trSeqNum": 65,
+        "voltage": 3.02
+    }
+}, {
+    "nwkAddr": "0xE2F7",
+    "ieeeAddr": "0x00158D00022BD59A",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587398179,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_magnet.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x5F01",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "4": true,
+                "255": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 89,
+        "trSeqNum": 18,
+        "voltage": 3.02
+    }
+}, {
+    "nwkAddr": "0xF182",
+    "ieeeAddr": "0x00158D0003468F57",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419887,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_smoke",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0402",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "12": true,
+                "18": true
+            },
+            "Out": {
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "linkquality": 78,
+        "smoke": false,
+        "trSeqNum": 170,
+        "voltage": 3.08
+    }
+}, {
+    "nwkAddr": "0xF32B",
+    "ieeeAddr": "0x00124B0019365097",
+    "friendly_name": "",
+    "type": "Router",
+    "PowerSource": 1,
+    "last_seen": 1587421045,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.router",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "8": {
+            "devId": "0x0100",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "6": true
+            },
+            "Out": {
+                "0": true,
+                "6": true
+            }
+        }
+    },
+    "st": {
+        "linkquality": 31,
+        "trSeqNum": 85,
+        "unknown_state": ""
+    }
+}, {
+    "nwkAddr": "0xF62C",
+    "ieeeAddr": "0x000B57FFFE9015AF",
+    "friendly_name": "TRADFRI",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587397277,
+    "ManufName": "IKEA of Sweden",
+    "ModelId": "TRADFRI wireless dimmer",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0810",
+            "profId": "0xC05E",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "5": true,
+                "9": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "action": "",
+        "brightness": 248,
+        "linkquality": 107,
+        "store_direction": "null",
+        "store_move_time": "null",
+        "trSeqNum": 119
+    }
+}, {
+    "nwkAddr": "0xF68A",
+    "ieeeAddr": "0x00158D0001A64644",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419884,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_magnet",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": [],
+    "ep": {
+        "1": {
+            "devId": "0x0104",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "3": true,
+                "25": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "3": true,
+                "4": true,
+                "5": true,
+                "6": true,
+                "8": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "contact": false,
+        "linkquality": 99,
+        "trSeqNum": 219,
+        "voltage": 3.04
+    }
+}, {
+    "nwkAddr": "0xFACE",
+    "ieeeAddr": "0x00158D0001E164DC",
+    "friendly_name": "",
+    "type": "EndDevice",
+    "PowerSource": 3,
+    "last_seen": 1587419776,
+    "ManufName": "LUMI",
+    "ModelId": "lumi.sensor_motion.aq2",
+    "Rcf": true,
+    "supported": 1,
+    "Interview": {
+        "State": 4,
+        "TS": 0
+    },
+    "Rtg": ["0x3818"],
+    "ep": {
+        "1": {
+            "devId": "0x0107",
+            "profId": "0x0104",
+            "In": {
+                "0": true,
+                "1": true,
+                "3": true,
+                "6": true,
+                "255": true
+            },
+            "Out": {
+                "0": true,
+                "25": true
+            }
+        }
+    },
+    "st": {
+        "battery": 100,
+        "illuminance": 3,
+        "linkquality": 78,
+        "trSeqNum": 198,
+        "voltage": 3.04
+    }
+}]

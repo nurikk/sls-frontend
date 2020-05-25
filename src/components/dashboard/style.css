@@ -1,0 +1,114 @@
+.dnd-list {
+
+}
+
+.dnd-list-item {
+
+}
+
+@media (max-width: 575.98px) {
+    :global(.card-columns) {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    :global(.card-columns) {
+        column-count: 3;
+    }
+}
+
+@media (min-width: 992px) {
+    :global(.card-columns) {
+        column-count: 4;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    :global(.card-columns) {
+        column-count: 5;
+    }
+}
+
+.container {
+    min-height: 20px;
+    /*border: 1px solid red;*/
+}
+
+.widget {
+    width: 600px;
+    flex-basis: 25%;
+    flex-grow: 0;
+    /*height: 200px;*/
+}
+
+.draggable {
+
+}
+
+.widget-component {
+    padding: 10px;
+}
+.widget-component img {
+    width: 64px;
+    height: 64px;
+}
+
+@keyframes placed {
+    to {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+}
+
+
+:global(.draggable-source--placed) {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    animation: placed .24s cubic-bezier(.64,0,.35,1) both
+}
+
+:global(.draggable--is-dragging) {
+    color: #0042ff;
+}
+:global(.draggable-source--is-dragging){
+        background-color: #0042ff;
+        opacity: 1
+}
+:global(.draggable-container--over) .widget-component {
+    border: 1px solid black;
+}
+:global(.draggable-mirror) {
+        background-color: #0042ff;
+        z-index: 7;
+        transform: scale(1.025)
+}
+
+:global(.draggable--is-dragging) + :global(.draggable-container--over) {
+    border: 5px solid red;
+}
+
+:global(.draggable-mirror) {
+    max-height: 8.6rem;
+    transition: width .12s cubic-bezier(.64,0,.35,1),height .12s cubic-bezier(.64,0,.35,1)
+}
+
+
+
+.header, .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body {
+
+}
+.icon {
+
+}
+.icon img {
+    height: 24px;
+    width: 24px;
+}

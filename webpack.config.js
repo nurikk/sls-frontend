@@ -83,6 +83,7 @@ module.exports = (env, args) => {
 						loader: 'ts-loader'
 					}],
 				},
+
 				{
 					test: /\.css$/i,
 					use: [

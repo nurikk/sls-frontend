@@ -1,0 +1,34 @@
+.widget {
+    padding: 10px;
+}
+.header {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.header, .body {
+    display: flex;
+    justify-content: space-between;
+}
+.statuses {
+    display: flex;
+    justify-content: space-around;
+}
+.status {
+    margin-right: 5px;
+}
+
+.body {
+
+}
+.icon {
+
+}
+.icon img {
+    height: 24px;
+    width: 24px;
+}
+
+.actions {
+
+}

@@ -4,6 +4,8 @@ export type DeviceType = "EndDevice" | "Router" | "Coordinator";
 
 export type Dictionary<V> = { [index: string]: V }
 
+
+
 export interface DeviceStats {
     linkquality?: number;
     battery?: number;

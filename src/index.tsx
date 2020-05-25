@@ -4,7 +4,13 @@
 
 
 
+<<<<<<< Updated upstream
 if (process.env.NODE_ENV === 'development') {
+=======
+import ConnectedDashboard from "./components/dashboard";
+
+if (process.env.NODE_ENV==='development') {
+>>>>>>> Stashed changes
     // Must use require here as import statements are only allowed
     // to exist at the top of a file.
     require("preact/debug");
@@ -105,6 +111,10 @@ const CodeEditorApp = () => (
     <Provider store={store}><ConnectedCodeEditor /></Provider>
 );
 
+const DashboardApp = () => (
+    <Provider store={store}><ConnectedDashboard /></Provider>
+);
+
 const initWidgets = (): void => {
     habitat(ZigbeeTableApp).render({
         selector: "[data-widget-host=\"zigbee\"]",
@@ -132,6 +142,11 @@ const initWidgets = (): void => {
 
     habitat(CodeEditorApp).render({
         selector: "[data-widget-host=\"code-editor\"]",
+        clean: true
+    });
+
+    habitat(DashboardApp).render({
+        selector: "[data-widget-host=\"dashboard\"]",
         clean: true
     });
 
