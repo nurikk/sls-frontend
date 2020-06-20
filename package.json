@@ -23,7 +23,7 @@
     "@types/notyf": "^3.0.0",
     "notyf": "^3.7.0",
     "pubsub-ts": "^0.2.0",
-    "unistore": "^3.5.1"
+    "unistore": "^3.5.2"
   },
   "devDependencies": {
     "@teamsupercell/typings-for-css-modules-loader": "^2.2.0",
