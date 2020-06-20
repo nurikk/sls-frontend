@@ -4,9 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const CompressionPlugin = require('compression-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-
+const apiMocker = require('connect-api-mocker');
 const path = require('path');
 const glob = require('glob');
+const startWsMock = require("./ws");
 
 module.exports = (env, args) => {
 	let production = false;
@@ -108,9 +109,13 @@ module.exports = (env, args) => {
 			],
 		},
 		devServer: {
-			proxy: {
-				'/api': 'http://192.168.1.209'
+			before(app) {
+				app.use(apiMocker('/api', 'api-mocks/api'));
+				startWsMock();
 			},
+			// proxy: {
+			// 	'/api': 'http://192.168.1.209'
+			// },
 			headers: {
 				'Access-Control-Allow-Origin': '*'
 			},

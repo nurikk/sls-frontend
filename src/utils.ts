@@ -26,17 +26,6 @@ export function chunkArray<T>(inputArr: T[], chunkSize: number): T[][] {
 
 export const encodeGetParams = (data: Dictionary<string | number>): string => Object.keys(data).map((key) => [key, data[key]].map(encodeURIComponent).join("=")).join("&");
 
-export const WSConnect = (): ReconnectingWebSocket => {
-    const { hostname } = document.location;
-    if (hostname === "localhost") {
-        const { search } = document.location;
-        if (search.indexOf("gate") > 0) {
-            return new ReconnectingWebSocket(`ws://192.168.1.209:81/log`);
-        }
-        return new ReconnectingWebSocket(`ws://localhost:8579`);
-    } else return new ReconnectingWebSocket(`ws://${document.location.hostname}:81/log`);
-};
-
 export const sanitizeModelNameForImageUrl = (modelName: string): string => {
     return modelName ? modelName.replace("/", "_") : null;
 };
