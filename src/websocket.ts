@@ -93,3 +93,8 @@ export default class WebsocketManager {
         return this.em.on(eventCategory, consumer)
     }
 }
+
+
+const manager = new WebsocketManager();
+
+export { manager };

@@ -2,10 +2,11 @@ import { Component, ComponentChild, createRef, h } from "preact";
 import style from "./style.css";
 import cx from "classnames";
 import { Notyf } from "notyf";
-import { GlobalState } from "../../store";
+import store, { GlobalState } from "../../store";
 import actions, { Actions } from "../../actions";
 import { connect } from "unistore/preact";
 import { useEffect } from "preact/hooks";
+import { manager } from "../../websocket";
 
 export enum LogLevel {
     LOG_OFF,
@@ -33,6 +34,12 @@ export class LogViewer extends Component<GlobalState & Actions, LogViewerState> 
         await fetchLogsBuffer();
         setTimeout(this.scrollToBottom, 500);
         await getCurrentLogLevel();
+
+        manager.subscribe("log", (data) => {
+            const { logs } = store.getState();
+            const copyLogs = [...logs, data.payload as string];
+            store.setState({ logs: copyLogs });
+        });
     }
 
 

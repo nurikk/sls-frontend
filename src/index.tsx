@@ -24,7 +24,7 @@ import ConnectedDevicePage from "./components/device-page";
 import store from "./store";
 import { Provider } from "unistore/preact";
 import { h, FunctionalComponent } from "preact";
-import WebsocketManager from "./websocket";
+import { manager } from "./websocket";
 
 
 interface StateChangePayload {
@@ -78,16 +78,9 @@ const processZigbeeEvent = ({ category, payload }): void => {
     }
 }
 
-const manager = new WebsocketManager();
+
 console.log("use `copy(wsEventsData)` to copy events log");
 manager.subscribe("zigbee", processZigbeeEvent);
-
-manager.subscribe("log", (data) => {
-    const { logs } = store.getState();
-    const copyLogs = [...logs, data.payload as string];
-    store.setState({ logs: copyLogs });
-});
-
 
 
 
