@@ -8,7 +8,7 @@ import orderBy from "lodash/orderBy";
 import { connect } from "unistore/preact";
 import { GlobalState } from "../../store";
 import actions, { Actions } from "../../actions";
-import WebsocketManager from "../../websocket";
+import WebsocketManager, { manager } from "../../websocket";
 import { getDeviceDisplayName } from "../device-page/bind-row";
 import TouchlinkDeviceCard from "./touchlink-device-card";
 window["wsEventsData"] = window["wsEventsData"] || [];
@@ -73,7 +73,6 @@ export class Discovery extends Component<GlobalState & Actions, DiscoveryState> 
 
     componentDidMount(): void {
         const { getZigbeeDevicesList } = this.props;
-        const manager = new WebsocketManager();
         console.log("use `copy(wsEventsData)` to copy events log");
         manager.subscribe("zigbee", this.processZigbeeEvent);
         getZigbeeDevicesList(true);

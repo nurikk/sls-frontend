@@ -47,8 +47,8 @@ export default class WebsocketManager {
     remoteSubscribe = (category: string): void => {
         if (!this.categories.includes(category)) {
             this.categories.push(category);
+            this.ws.send(JSON.stringify({ action: "subscribe", category }));
         }
-        this.ws.send(JSON.stringify({ action: "subscribe", category }))
     }
 
     private connect(): void {
