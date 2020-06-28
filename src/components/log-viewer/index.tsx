@@ -8,7 +8,7 @@ import { connect } from "unistore/preact";
 import { useEffect } from "preact/hooks";
 import { manager } from "../../websocket";
 
-export enum LogLevel {
+export const enum LogLevel {
     LOG_OFF,
     LOG_NORMAL,
     LOG_VERBOSE,
