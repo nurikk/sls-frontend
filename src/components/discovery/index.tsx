@@ -77,7 +77,6 @@ export class Discovery extends Component<GlobalState & Actions, DiscoveryState> 
         console.log("use `copy(wsEventsData)` to copy events log");
         manager.subscribe("zigbee", this.processZigbeeEvent);
         getZigbeeDevicesList(true);
-        setTimeout(() => this.enableJoin(), 500);
     }
     renderTLdevices(): ComponentChild {
         const { touchlinkResuts, touchlinkRest, touchlinkIdentify } = this.props;
