@@ -48,7 +48,7 @@
     "fork-ts-checker-webpack-plugin": "^4.1.6",
     "gh-pages": "^3.0.0",
     "html-webpack-plugin": "^4.3.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "mini-css-extract-plugin": "^0.9.0",
     "preact": "^10.4.4",
     "preact-habitat": "^3.3.0",
